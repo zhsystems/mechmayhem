@@ -528,3 +528,51 @@ fieldset input[type="checkbox"] {
 .download-box p {
   font-size: 24px;
 }
+
+
+.rules-container {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rules-card {
+    width: 100%;
+    max-width: 700px;
+
+    background: rgba(255,255,255,0.04);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 20px;
+
+    padding: 50px;
+
+    backdrop-filter: blur(6px);
+}
+
+.rules-card h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 3rem;
+}
+
+.rules-card p {
+    margin-bottom: 35px;
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.rules-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
