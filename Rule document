@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MechMayhem Rules</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="rules.html">Rules</a>
+  </nav>
+
+  <main class="rules-page">
+    <h1>MechMayhem Rules</h1>
+    <p>Download the current rules and competition documents below.</p>
+
+    <a class="button" href="rules.pdf" download>
+      Download Rules PDF
+    </a>
+  </main>
+</body>
+</html>
